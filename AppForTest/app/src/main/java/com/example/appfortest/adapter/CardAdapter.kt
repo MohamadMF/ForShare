@@ -24,7 +24,6 @@ class CardAdapter(private val context: Context, private val dataset1: List<Secti
         }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CardViewHolder {
-        //val binding = DataBindingUtil.inflate<DeptsCardViewBinding>(LayoutInflater.from(parent.context),R.layout.depts_card_view,parent,false)
         val adapterLayout = LayoutInflater.from(parent.context).inflate(R.layout.depts_card_view,parent,false)
         return CardViewHolder(adapterLayout)
 
