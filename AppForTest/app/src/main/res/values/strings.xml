@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">App For Test</string>
+
+    <string name="str_title_orders">Orders Section</string>
+    <string name="str_title_preOrder">Pre Orders Section</string>
+    <string name="str_title_shipEs">Shipping Companies Section</string>
+    <string name="str_title_inventory">Inventory Section</string>
+    <string name="str_warehouse_dep">Warehouse Department</string>
+    <string name="str_whPr_rcvdPrm">Received PreOrders</string>
+    <string name="str_whPr_dfrdPrm">Deferred PreOrders</string>
+    <string name="str_whPr_cnfdPrm">Confirmed PreOrders</string>
+    <string name="str_whPr_cnsldPrm">Cancelled PreOrders</string>
+    <string name="str_whOr_OrdList">Orders List</string>
+    <string name="str_whOr_RtnList">Returns List</string>
+    <string name="str_whOr_IncList">Incomes List</string>
+    <string name="str_whOr_ctrIncomes">Create Income</string>
+    <string name="str_whOr_ctrReturns">Return Order</string>
+    <string name="str_whEs_EsList">Expresses List</string>
+    <string name="str_whEs_addEs">Add Express</string>
+    <string name="str_whEs_cnsldEs">Stopped Express</string>
+    <string name="str_whIn_recent">Recent Items</string>
+    <string name="str_whIn_Empty">Empty Items</string>
+    <string name="str_whIn_Deleted">Deleted Items</string>
+    <string name="str_whIn_AddItem">Add Item</string>
+    <string name="str_whIn_delItem">Delete Item</string>
+    <string name="str_office_dep">Office Department</string>
+    <string name="str_fin_section">Finance Section</string>
+    <string name="str_cusSup_section">Customers A Suppliers Section</string>
+    <string name="str_pers_section">Personnel Section</string>
+    <string name="str_cap_section">Capital Section</string>
+    <string name="str_ofFin_safeAdd">Safe Transactions</string>
+    <string name="str_ofFin_daily">Daily Report</string>
+    <string name="str_ofFin_general">General Reports</string>
+    <string name="str_ofFin_chqs">Cheques List</string>
+    <string name="str_ofCp_capList">Capital List</string>
+    <string name="str_ofCp_sumList">Transactions Summery</string>
+    <string name="str_ofCp_detList">Transactions Details</string>
+    <string name="str_ofCp_comR">Company Report Status</string>
+    <string name="str_ofCS_csList">Clients and Suppliers List</string>
+    <string name="str_ofCS_stoppedList">Stopped CS List</string>
+    <string name="str_ofCS_inactiveList">Unactive CS List</string>
+    <string name="str_ofCS_dBalances">Detailed Balances</string>
+    <string name="str_ofCS_bBalances">Brief Balances</string>
+    <string name="str_ofCS_others">Other Actions</string>
+</resources>

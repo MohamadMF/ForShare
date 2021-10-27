@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text Sizes -->
+    <dimen name="HintText">16sp</dimen>
+    <dimen name="NormalText">16sp</dimen>
+    <dimen name="CompanyText">24sp</dimen>
+    <dimen name="TitleText">32sp</dimen>
+    <dimen name="BigTitleText">40sp</dimen>
+
+    <!-- Button Sizes -->
+    <dimen name="TextInButton">24sp</dimen>
+
+    <!-- Spaces Sizes -->
+    <dimen name="Space1_8">8dp</dimen>
+    <dimen name="Space2_16">16dp</dimen>
+    <dimen name="Space3_24">24dp</dimen>
+    <dimen name="Space4_32">32dp</dimen>
+    <dimen name="Space5_40">40dp</dimen>
+    <dimen name="Space6_48">48dp</dimen>
+    <dimen name="Space7_56">56dp</dimen>
+    <dimen name="Space8_64">64dp</dimen>
+    <dimen name="Space9_72">72dp</dimen>
+    <dimen name="Space10_80">80dp</dimen>
+
+</resources>
