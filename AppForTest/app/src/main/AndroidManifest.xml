@@ -10,13 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppForTest">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".UpperBottomNav"
+            android:exported="true"
+            android:label="@string/title_activity_upper_bottom_nav">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
         </activity>
     </application>
 

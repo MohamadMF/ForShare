@@ -4,7 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/GitHubProjs/ForShare/AppForTest/app/src/main/res/layout/activity_main.xml" value="0.3489583333333333" />
+        <entry key="..\:/GitHubProjs/ForShare/AppForTest/app/src/main/res/layout/activity_upper_bottom_nav.xml" value="0.1703125" />
         <entry key="..\:/GitHubProjs/ForShare/AppForTest/app/src/main/res/layout/depts_card_view.xml" value="0.33" />
+        <entry key="..\:/GitHubProjs/ForShare/AppForTest/app/src/main/res/layout/fragment_dashboard.xml" value="0.1697061803444782" />
+        <entry key="..\:/GitHubProjs/ForShare/AppForTest/app/src/main/res/layout/fragment_home.xml" value="0.1697061803444782" />
+        <entry key="..\:/GitHubProjs/ForShare/AppForTest/app/src/main/res/layout/fragment_notifications.xml" value="0.1697061803444782" />
+        <entry key="..\:/GitHubProjs/ForShare/AppForTest/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3489583333333333" />
       </map>
     </option>
   </component>

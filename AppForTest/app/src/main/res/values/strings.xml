@@ -42,4 +42,8 @@
     <string name="str_ofCS_dBalances">Detailed Balances</string>
     <string name="str_ofCS_bBalances">Brief Balances</string>
     <string name="str_ofCS_others">Other Actions</string>
+    <string name="title_activity_upper_bottom_nav">UpperBottomNav</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
