@@ -1,5 +1,6 @@
 package com.myply.myapplication
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.view.KeyEvent
 import android.view.LayoutInflater
@@ -23,7 +24,7 @@ class MyRecyclerAdapter internal constructor(
         return ViewHolder(view)
     }
 
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolder, @SuppressLint("RecyclerView") position: Int) {
         val customer = data[position]
 
         holder.editName.setText(customer.name)

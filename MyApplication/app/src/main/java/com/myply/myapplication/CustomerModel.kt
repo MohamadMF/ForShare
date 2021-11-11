@@ -1,3 +1,3 @@
 package com.myply.myapplication
 
-data class CustomerModel()
+data class CustomerModel(var name: String,var depositType: String)
