@@ -29,9 +29,9 @@ class MainActivity : AppCompatActivity() {
             /*add empty model without information */
             adapter.add(CustomerModel())
         }
-        fabDone.setOnClickListener {
+        /*fabDone.setOnClickListener {
             /*collect all data*/
             var customers = adapter.data
-        }
+        }*/
     }
 }
