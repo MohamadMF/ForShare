@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/emp_ui_nav_graph"
+    app:startDestination="@id/fragmentHomeEmpsUi">
+
+    <fragment
+        android:id="@+id/fragmentHomeEmpsUi"
+        android:name="com.albnaapp.userin.HomeEmpsUiFragment"
+        android:label="@string/btnStr_home"
+        tools:layout="@layout/fragment_home_emps_ui" >
+    </fragment>
+    <fragment
+        android:id="@+id/warehouseList"
+        android:name="com.albnaapp.userin.warehouse.DeptWarehouseFragment"
+        android:label="@string/str_warehouse_dep"
+        tools:layout="@layout/fragment_dept_warehouse" >
+    </fragment>
+    <fragment
+        android:id="@+id/officeList"
+        android:name="com.albnaapp.userin.office.DeptOfficeFragment"
+        android:label="@string/str_office_dep"
+        tools:layout="@layout/fragment_dept_office" >
+    </fragment>
+    <fragment
+        android:id="@+id/importList"
+        android:name="com.albnaapp.userin.import.DeptImportFragment"
+        android:label="@string/str_import_dept"
+        tools:layout="@layout/fragment_dept_import" />
+    <fragment
+        android:id="@+id/app_about"
+        android:name="com.albnaapp.userin.AppAboutFragment"
+        android:label="@string/btnStr_about"
+        tools:layout="@layout/fragment_app_about" />
+    <fragment
+        android:id="@+id/app_feedback"
+        android:name="com.albnaapp.userin.AppReportFragment"
+        android:label="@string/str_report_a_problem"
+        tools:layout="@layout/fragment_app_report" />
+    <activity
+        android:id="@+id/app_settings"
+        android:name="com.albnaapp.SettingsActivity"
+        android:label="@string/str_the_settings"
+        tools:layout="@layout/activity_settings" />
+
+    <!--Pre Orders Section-->
+    <fragment
+        android:id="@+id/CreateOrder"
+        android:name="com.albnaapp.userin.warehouse.PoCreateOrderFragment"
+        android:label="@string/btnStr_crtOrder"
+        tools:layout="@layout/fragment_po_create_order">
+    </fragment>
+
+    <fragment
+        android:id="@+id/ReceivedPreOrders"
+        android:name="com.albnaapp.userin.warehouse.PoRcOrdersFragment"
+        android:label="@string/str_whPo_rcvdPrm"
+        tools:layout="@layout/fragment_po_rc_orders">
+    </fragment>
+
+    <fragment
+        android:id="@+id/DeferredPreOrders"
+        android:name="com.albnaapp.userin.warehouse.PoDfOrdersFragment"
+        android:label="@string/str_whPo_dfrdPrm"
+        tools:layout="@layout/fragment_po_df_orders">
+    </fragment>
+
+    <fragment
+        android:id="@+id/ConfirmedPreOrders"
+        android:name="com.albnaapp.userin.warehouse.PoCmOrdersFragment"
+        android:label="@string/str_whPo_cnfdPrm"
+        tools:layout="@layout/fragment_po_cm_orders">
+    </fragment>
+
+    <fragment
+        android:id="@+id/CancelledPreOrders"
+        android:name="com.albnaapp.userin.warehouse.PoCcOrdersFragment"
+        android:label="@string/str_whPo_cnsldPrm"
+        tools:layout="@layout/fragment_po_cc_orders">
+    </fragment>
+
+    <!--Orders Section-->
+    <fragment
+        android:id="@+id/OrdersList"
+        android:name="com.albnaapp.userin.warehouse.OrOrdersListFragment"
+        android:label="@string/str_whOr_OrdList"
+        tools:layout="@layout/fragment_or_orders_list" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/ReturnsList"
+        android:name="com.albnaapp.userin.warehouse.OrReturnListFragment"
+        android:label="@string/str_whOr_RtnList"
+        tools:layout="@layout/fragment_or_return_list" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/IncomesList"
+        android:name="com.albnaapp.userin.warehouse.OrIncomeListFragment"
+        android:label="@string/str_whOr_IncList"
+        tools:layout="@layout/fragment_or_income_list" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/CreateIncome"
+        android:name="com.albnaapp.userin.warehouse.OrCreateIncomeFragment"
+        android:label="@string/str_whOr_ctrIncomes"
+        tools:layout="@layout/fragment_or_create_income" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/ReturnOrder"
+        android:name="com.albnaapp.userin.warehouse.OrReturnOrderFragment"
+        android:label="@string/str_whOr_ctrReturns"
+        tools:layout="@layout/fragment_or_return_order" >
+    </fragment>
+
+    <!--Shipping Section-->
+    <fragment
+        android:id="@+id/ExpressesList"
+        android:name="com.albnaapp.userin.warehouse.EsExpressListFragment"
+        android:label="@string/str_whEs_EsList"
+        tools:layout="@layout/fragment_es_express_list" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/StoppedExpress"
+        android:name="com.albnaapp.userin.warehouse.EsStoppedExpressFragment"
+        android:label="@string/str_whEs_cnsldEs"
+        tools:layout="@layout/fragment_es_express_list" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/AddExpress"
+        android:name="com.albnaapp.userin.warehouse.EsAddExpressFragment"
+        android:label="@string/str_whEs_addEs"
+        tools:layout="@layout/fragment_es_add_express" >
+    </fragment>
+
+    <!--Inventory Section-->
+    <fragment
+        android:id="@+id/RecentItems"
+        android:name="com.albnaapp.userin.warehouse.InRecentItemsFragment"
+        android:label="@string/str_whIn_recent"
+        tools:layout="@layout/fragment_in_recent_items">
+    </fragment>
+
+    <fragment
+        android:id="@+id/DeletedItems"
+        android:name="com.albnaapp.userin.warehouse.InDeletedItemsFragment"
+        android:label="@string/str_whIn_Deleted"
+        tools:layout="@layout/fragment_in_deleted_items">
+    </fragment>
+
+    <fragment
+        android:id="@+id/AddItem"
+        android:name="com.albnaapp.userin.warehouse.InAddItemFragment"
+        android:label="@string/str_whIn_AddItem"
+        tools:layout="@layout/fragment_in_add_item">
+    </fragment>
+
+    <fragment
+        android:id="@+id/DeleteItem"
+        android:name="com.albnaapp.userin.warehouse.InDeleteItemFragment"
+        android:label="@string/str_whIn_delItem"
+        tools:layout="@layout/fragment_in_delete_item">
+    </fragment>
+
+    <!--Finance Section-->
+    <fragment
+        android:id="@+id/AddDeposit"
+        android:name="com.albnaapp.userin.office.FnAddDepositFragment"
+        android:label="@string/btnStr_addDep"
+        tools:layout="@layout/fragment_fn_add_deposit">
+    </fragment>
+
+    <fragment
+        android:id="@+id/SafeTransactions"
+        android:name="com.albnaapp.userin.office.FnSafeTransFragment"
+        android:label="@string/str_ofFn_safeAdd"
+        tools:layout="@layout/fragment_fn_safe_trans" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/DailyReport"
+        android:name="com.albnaapp.userin.office.FnSafeDailyRpFragment"
+        android:label="@string/str_ofFn_daily"
+        tools:layout="@layout/fragment_fn_safe_daily_rp">
+    </fragment>
+
+    <fragment
+        android:id="@+id/GeneralReports"
+        android:name="com.albnaapp.userin.office.FnSafeGeneralRpFragment"
+        android:label="@string/str_ofFn_general"
+        tools:layout="@layout/fragment_fn_safe_general_rp">
+    </fragment>
+
+    <fragment
+        android:id="@+id/ChequesList"
+        android:name="com.albnaapp.userin.office.FnChequesListFragment"
+        android:label="@string/str_ofFn_chqs"
+        tools:layout="@layout/fragment_fn_cheques_list">
+    </fragment>
+
+    <!--Capital Section-->
+    <fragment
+        android:id="@+id/AddCapital"
+        android:name="com.albnaapp.userin.office.CpAddCapitalFragment"
+        android:label="@string/btnStr_addCapital"
+        tools:layout="@layout/fragment_cp_add_capital">
+    </fragment>
+
+    <fragment
+        android:id="@+id/CapitalList"
+        android:name="com.albnaapp.userin.office.CpCapitalListFragment"
+        android:label="@string/str_ofCp_capList"
+        tools:layout="@layout/fragment_cp_capital_list">
+    </fragment>
+
+    <fragment
+        android:id="@+id/TransactionsSummery"
+        android:name="com.albnaapp.userin.office.CpSummeryFragment"
+        android:label="@string/str_ofCp_sumList"
+        tools:layout="@layout/fragment_cp_summery">
+    </fragment>
+
+    <fragment
+        android:id="@+id/TransactionsDetails"
+        android:name="com.albnaapp.userin.office.CpDetailsFragment"
+        android:label="@string/str_ofCp_detList"
+        tools:layout="@layout/fragment_cp_details">
+    </fragment>
+
+    <fragment
+        android:id="@+id/CompanyReportStatus"
+        android:name="com.albnaapp.userin.office.CpComRpFragment"
+        android:label="@string/str_ofCp_comR"
+        tools:layout="@layout/fragment_cp_com_rp" >
+    </fragment>
+
+    <!--Clients and Suppliers Section-->
+    <fragment
+        android:id="@+id/AddClient"
+        android:name="com.albnaapp.userin.office.CsAddClientFragment"
+        android:label="@string/strBtn_addClient"
+        tools:layout="@layout/fragment_cs_add_client">
+    </fragment>
+
+    <fragment
+        android:id="@+id/ClientsAndSuppliersList"
+        android:name="com.albnaapp.userin.office.CsListFragment"
+        android:label="@string/str_ofCS_csList"
+        tools:layout="@layout/fragment_cs_list">
+    </fragment>
+
+    <fragment
+        android:id="@+id/StoppedCSList"
+        android:name="com.albnaapp.userin.office.CsStoppedListFragment"
+        android:label="@string/str_ofCS_stoppedList"
+        tools:layout="@layout/fragment_cs_stopped_list">
+    </fragment>
+
+    <fragment
+        android:id="@+id/InactiveCSList"
+        android:name="com.albnaapp.userin.office.CsInactiveListFragment"
+        android:label="@string/str_ofCS_inactiveList"
+        tools:layout="@layout/fragment_cs_inactive_list">
+    </fragment>
+
+    <fragment
+        android:id="@+id/DetailedBalances"
+        android:name="com.albnaapp.userin.office.CsDtBalancesFragment"
+        android:label="@string/str_ofCS_dBalances"
+        tools:layout="@layout/fragment_cs_dt_balances" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/BriefBalances"
+        android:name="com.albnaapp.userin.office.CsBrBalancesFragment"
+        android:label="@string/str_ofCS_bBalances"
+        tools:layout="@layout/fragment_cs_br_balances" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/OtherActions"
+        android:name="com.albnaapp.userin.office.CsOtherActionsFragment"
+        android:label="@string/str_ofCS_others"
+        tools:layout="@layout/fragment_cs_other_actions">
+    </fragment>
+
+    <!--Personnel Section-->
+    <fragment
+        android:id="@+id/PersonnelList"
+        android:name="com.albnaapp.userin.office.PrPersonnelListFragment"
+        android:label="@string/str_ofPr_perList"
+        tools:layout="@layout/fragment_pr_personnel_list">
+    </fragment>
+
+    <fragment
+        android:id="@+id/MonthlySalary"
+        android:name="com.albnaapp.userin.office.PrSalaryFragment"
+        android:label="@string/str_ofPr_mReport"
+        tools:layout="@layout/fragment_pr_salary">
+    </fragment>
+
+    <fragment
+        android:id="@+id/AnnualReport"
+        android:name="com.albnaapp.userin.office.PrAnnualRpFragment"
+        android:label="@string/str_ofPr_yReport"
+        tools:layout="@layout/fragment_pr_annual_rp" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/Attendance"
+        android:name="com.albnaapp.userin.office.PrAttendFragment"
+        android:label="@string/str_ofPr_attendance"
+        tools:layout="@layout/fragment_pr_attend">
+    </fragment>
+
+    <fragment
+        android:id="@+id/Absences"
+        android:name="com.albnaapp.userin.office.PrDelayFragment"
+        android:label="@string/str_ofPr_delay"
+        tools:layout="@layout/fragment_pr_delay">
+    </fragment>
+
+</navigation>

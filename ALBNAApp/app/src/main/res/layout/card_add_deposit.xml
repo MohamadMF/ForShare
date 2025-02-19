@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".adapter.AddDepositAdapter">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/client_name"
+            style="@style/MediumTextLtMain"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:gravity="center"
+            android:text="@string/str_client_name"
+            app:layout_constraintBottom_toTopOf="@+id/details_group"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/client_code_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="0dp"
+            android:hint="@string/str_hint_enterTheCode"
+            app:layout_constraintEnd_toStartOf="@+id/client_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                android:id="@+id/client_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:textColorHint="#757575" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/deposit_amount_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:hint="@string/str_hint_enterTheAmount"
+            app:layout_constraintEnd_toEndOf="@+id/client_code_layout"
+            app:layout_constraintStart_toStartOf="@+id/client_code_layout"
+            app:layout_constraintTop_toBottomOf="@id/client_code_layout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/deposit_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:textColorHint="#757575" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/deposit_type"
+            style="@style/NormalText"
+            android:layout_width="@dimen/_8_64"
+            android:layout_height="@dimen/_6_48"
+            android:layout_marginStart="@dimen/_1_8"
+            android:layout_marginTop="@dimen/_12_96"
+            android:gravity="center"
+            android:text="@string/str_deposit_type"
+            app:layout_constraintBottom_toTopOf="@+id/about_client"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <RadioGroup
+            android:id="@+id/details_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toEndOf="@+id/deposit_type"
+            app:layout_constraintTop_toTopOf="@+id/deposit_type"
+            app:layout_constraintBottom_toBottomOf="@id/deposit_type">
+
+            <RadioButton
+                android:id="@+id/type_deposit"
+                style="@style/NormalTextLtMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/str_deposit" />
+
+            <RadioButton
+                android:id="@+id/type_cheque"
+                style="@style/NormalTextLtMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_cheque"
+                android:textColor="#0277BD" />
+
+            <RadioButton
+                android:id="@+id/type_receipt"
+                style="@style/NormalTextLtMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_receipt"
+                android:textColor="#0277BD" />
+
+            <RadioButton
+                android:id="@+id/type_mail"
+                style="@style/NormalTextLtMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_mail" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/about_client"
+            style="@style/NormalText"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_6_48"
+            android:layout_marginStart="@dimen/_1_8"
+            android:gravity="center"
+            android:text="@string/str_about_client"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/deposit_type" />
+
+        <RadioGroup
+            android:id="@+id/more_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toEndOf="@+id/about_client"
+            app:layout_constraintTop_toTopOf="@+id/about_client"
+            app:layout_constraintBottom_toBottomOf="@id/about_client">
+
+            <RadioButton
+                android:id="@+id/is_for_me"
+                style="@style/NormalTextLtMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/str_forMe" />
+
+            <RadioButton
+                android:id="@+id/is_not_for_me"
+                style="@style/NormalTextLtMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_forOthers"
+                android:textColor="#0277BD" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/btn_cancel_deposit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:contentDescription="@string/str_cancel_the_data"
+            android:focusable="true"
+            android:longClickable="true"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_round_delete_forever_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/more_group"
+            app:layout_constraintTop_toBottomOf="@+id/details_group"
+            app:layout_constraintVertical_bias="0.26"
+            app:tint="@color/Red" />
+
+        <ImageView
+            android:id="@+id/divider_deposit"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            app:layout_constraintTop_toBottomOf="@+id/about_client"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="@dimen/_1_8"
+            android:layout_marginBottom="@dimen/_1_8"
+            android:layout_marginStart="@dimen/_2_16"
+            android:layout_marginEnd="@dimen/_2_16"
+            android:background="?android:attr/listDivider"
+            tools:ignore="ContentDescription"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".userin.AppAboutFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="@dimen/_20_160"
+            android:layout_height="@dimen/_20_160"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo_single"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/intro"
+            style="@style/NormalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_intro"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/logo" />
+
+        <TextView
+            android:id="@+id/about"
+            style="@style/NormalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_about"
+            android:layout_marginTop="@dimen/_1_8"
+            android:layout_marginStart="@dimen/_1_8"
+            android:layout_marginEnd="@dimen/_1_8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/intro"/>
+
+        <TextView
+            android:id="@+id/legal"
+            style="@style/NormalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_legal"
+            android:layout_marginTop="@dimen/_1_8"
+            android:layout_marginStart="@dimen/_1_8"
+            android:layout_marginEnd="@dimen/_1_8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/about"/>
+
+        <TextView
+            android:id="@+id/contacts"
+            style="@style/NormalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_contacts"
+            android:layout_marginTop="@dimen/_1_8"
+            android:layout_marginStart="@dimen/_1_8"
+            android:layout_marginEnd="@dimen/_1_8"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/legal"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

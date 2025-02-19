@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/work_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/work_title"
+            android:title="@string/str_work_title">
+            <menu>
+                <item
+                    android:id="@+id/call_ceo"
+                    android:icon="@drawable/ic_round_call_24"
+                    android:title="@string/str_call_ceo" />
+                <item
+                    android:id="@+id/chat_ceo"
+                    android:icon="@drawable/ic_round_chat_24"
+                    android:title="@string/str_chat_ceo" />
+            </menu>
+        </item>
+    </group>
+    <group android:id="@+id/app_group"
+    android:checkableBehavior="single">
+        <item
+            android:id="@+id/app_title"
+            android:title="@string/str_app_title">
+            <menu>
+                <item
+                    android:id="@+id/chats"
+                    android:icon="@drawable/ic_round_question_answer_24"
+                    android:title="@string/str_chats" />
+                <item
+                    android:id="@+id/create_note"
+                    android:icon="@drawable/ic_round_note_add_24"
+                    android:title="@string/str_create_note" />
+                <item
+                    android:id="@+id/add_reminder"
+                    android:icon="@drawable/ic_round_add_alert_24"
+                    android:title="@string/str_add_reminder" />
+            </menu>
+        </item>
+    </group>
+    <group android:id="@+id/app_obout"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/app_others"
+            android:title="@string/str_others">
+            <menu>
+                <item
+                    android:id="@+id/app_settings"
+                    android:icon="@drawable/ic_round_settings_24"
+                    android:title="@string/str_the_settings" />
+                <item
+                    android:id="@+id/app_feedback"
+                    android:icon="@drawable/ic_round_report_24"
+                    android:title="@string/str_report_a_problem" />
+                <item
+                    android:id="@+id/app_about"
+                    android:icon="@drawable/ic_round_format_quote_24"
+                    android:title="@string/btnStr_about" />
+            </menu>
+        </item>
+    </group>
+</menu>

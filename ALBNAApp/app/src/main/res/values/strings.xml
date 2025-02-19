@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ALBNA For IMP &amp; EXP</string>
+    <string name="str_welcome">Welcomes you</string>
+    <string name="str_chosAppLang">Choose app language:</string>
+    <string name="btnStr_arabic" translatable="false">العربية</string>
+    <string name="btnStr_english" translatable="false">English</string>
+    <string name="str_login_as">Main Login As:</string>
+    <string name="str_employee">Employee</string>
+    <string name="str_client">Client</string>
+    <string name="str_exit">Exit</string>
+    <string name="btnStr_about">About</string>
+    <string name="str_about">The company was established in 2011. \n We imports most of its goods from China, and the company exports to Libya, Sudan, Palestine, Yemen and many other countries. \n The main business of us is to import all car upholstery supplies from leather, flooring, transparent, contact adhesive, spray adhesive, headliner, screen printed, jacquard weave, jacquard velvet and ready-made chair covers. \n We have local machines for the production of hog rings used for upholstery purposes. \n We have local suppliers to supply rugs, felt and foam. We also have products outside its main business, such as tablecloths, all kinds of tents, and zippers.</string>
+    <string name="str_loginAs_employee">Login as Employee</string>
+    <string name="str_emp_name">Employee Username</string>
+    <string name="str_password">Password</string>
+    <string name="str_client_name">Customer Name</string>
+    <string name="str_rmmbr_chkbox">Remember password</string>
+    <string name="str_login">Login</string>
+    <string name="str_back">Back</string>
+    <string name="str_helping">Need Help?</string>
+    <string name="str_forgetting">Forgot Password?</string>
+    <string name="btnStr_home">Home</string>
+    <string name="btnStr_financial">Financial</string>
+    <string name="btnStr_warehouse">Warehouse</string>
+    <string name="btnStr_addDep">Add Deposit</string>
+    <string name="btnStr_crtOrder">Create Order</string>
+    <string name="strBtn_addClient">Add Client</string>
+    <string name="btnStr_addCapital">Add Capital</string>
+    <string name="btnStr_office">Office</string>
+    <string name="btnStr_import">Import</string>
+    <string name="btnStr_more">More</string>
+    <string name="str_fragHome_wlcom">Welcome</string>
+    <string name="str_summary">Summary</string>
+    <string name="str_userName">Employee Name</string>
+    <string name="str_userTitle">Title</string>
+    <string name="str_title_orders">Orders Section</string>
+    <string name="str_title_preOrder">Pre Orders Section</string>
+    <string name="str_title_shipEs">Shipping Companies Section</string>
+    <string name="str_title_inventory">Inventory Section</string>
+    <string name="str_warehouse_dep">Warehouse Department</string>
+    <string name="str_whPo_rcvdPrm">Received PreOrders</string>
+    <string name="str_whPo_dfrdPrm">Deferred PreOrders</string>
+    <string name="str_whPo_cnfdPrm">Confirmed PreOrders</string>
+    <string name="str_whPo_cnsldPrm">Cancelled PreOrders</string>
+    <string name="str_whOr_OrdList">Orders List</string>
+    <string name="str_whOr_RtnList">Returns List</string>
+    <string name="str_whOr_IncList">Incomes List</string>
+    <string name="str_whOr_ctrIncomes">Create Income</string>
+    <string name="str_whOr_ctrReturns">Return Order</string>
+    <string name="str_whEs_EsList">Expresses List</string>
+    <string name="str_whEs_addEs">Add Express</string>
+    <string name="str_whEs_cnsldEs">Stopped Express</string>
+    <string name="str_whIn_recent">Recent Items</string>
+    <string name="str_whIn_Empty">Empty Items</string>
+    <string name="str_whIn_Deleted">Deleted Items</string>
+    <string name="str_whIn_AddItem">Add Item</string>
+    <string name="str_whIn_delItem">Delete Item</string>
+    <string name="str_office_dep">Office Department</string>
+    <string name="str_fin_section">Finance Section</string>
+    <string name="str_cusSup_section">Client And Suppliers Section</string>
+    <string name="str_pers_section">Personnel Section</string>
+    <string name="str_cap_section">Capital Section</string>
+    <string name="str_ofFn_safeAdd">Safe Transactions</string>
+    <string name="str_ofFn_daily">Daily Report</string>
+    <string name="str_ofFn_general">General Reports</string>
+    <string name="str_ofFn_chqs">Cheques List</string>
+    <string name="str_ofCp_capList">Capital List</string>
+    <string name="str_ofCp_sumList">Transactions Summery</string>
+    <string name="str_ofCp_detList">Transactions Details</string>
+    <string name="str_ofCp_comR">Company Report Status</string>
+    <string name="str_ofCS_csList">Clients And Suppliers List</string>
+    <string name="str_ofCS_stoppedList">Stopped CS List</string>
+    <string name="str_ofCS_inactiveList">Inactive CS List</string>
+    <string name="str_ofCS_dBalances">Detailed Balances</string>
+    <string name="str_ofCS_bBalances">Brief Balances</string>
+    <string name="str_ofCS_others">Other Actions</string>
+    <string name="str_ofPr_perList">Personnel List</string>
+    <string name="str_ofPr_mReport">Monthly Salary</string>
+    <string name="str_ofPr_yReport">Annual Report</string>
+    <string name="str_ofPr_attendance">Attendance</string>
+    <string name="str_ofPr_delay">Absences</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="str_import_dept">Import Department</string>
+    <string name="str_impDB_section">Import Database Section</string>
+    <string name="str_impEn_section">Data Entry Section</string>
+    <string name="str_impRp_section">Reports Section</string>
+    <string name="str_impTr_section">Tracker Section</string>
+    <string name="str_impDB_catgs">Product Categories</string>
+    <string name="str_impDB_sups">Suppliers</string>
+    <string name="str_impEn_invInfo">Invoice Info</string>
+    <string name="str_impEn_trans">Transactions</string>
+    <string name="str_impEn_invoices">Invoices</string>
+    <string name="str_impRp_stats">Statements of Balances</string>
+    <string name="str_impRp_costs">Costs of Goods</string>
+    <string name="str_impRp_ex">Ex Info</string>
+    <string name="str_impRp_sfsi">Separately Financial Statement Invoice</string>
+    <string name="str_impTr_orTracker">Order Tracker</string>
+    <string name="str_impTr_tsTracker">Task Tracker</string>
+    <string name="str_tools_clientName">Client Name</string>
+    <string name="str_hint_enterTheCode">Code</string>
+    <string name="str_hint_enterTheAmount">Amount</string>
+    <string name="str_deposit_type">Deposit Type</string>
+    <string name="str_deposit">Deposit</string>
+    <string name="str_cheque">Cheque</string>
+    <string name="str_receipt">Receipt</string>
+    <string name="str_mail">Mail</string>
+    <string name="str_about_client">About Client</string>
+    <string name="str_forMe">is for me</string>
+    <string name="str_forOthers">is for others</string>
+    <string name="str_add_other_deposit">Add other deposit</string>
+    <string name="str_submit_the_deposits">Submit the deposits</string>
+    <string name="str_cancel_the_data">Cancel the data</string>
+    <string name="str_col1_num">num</string>
+    <string name="str_col2_qty">QTY</string>
+    <string name="str_col3_item">Item</string>
+    <string name="str_col4_type">Type</string>
+    <string name="str_col5_color">Color</string>
+    <string name="str_col6_price">Price</string>
+    <string name="_000" translatable="false">000</string>
+
+    <string-array name="Codes" translatable="false">
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+    </string-array>
+    <string name="str_add_other_item">Add other item</string>
+    <string name="str_edit_profile">Edit Profile</string>
+    <string name="str_logout"><u>Log out</u></string>
+    <string name="str_work_title">Work Title</string>
+    <string name="str_call_ceo">Call CEO</string>
+    <string name="str_chat_ceo">Chat CEO</string>
+    <string name="str_app_title">App Title</string>
+    <string name="str_the_settings">The settings</string>
+    <string name="str_themes">Themes</string>
+    <string name="str_others">Others</string>
+    <string name="str_report_a_problem">Report a problem</string>
+    <string name="str_intro">Al-Bna for Import and Export Co.,LTD. All indicates of \"our\" or \"we\" or \"us\" it for this company</string>
+    <string name="str_legal">Registration Number: 16597 \n VAT number: 403–839–173 \n Import Number: 88564 </string>
+    <string name="str_contacts">
+        CEO Number: +201006866888 – +201159879777
+        \n Website:
+        \n Facebook Page: <xliff:g id="company_website">https://www.facebook.com/Albna.Import</xliff:g>
+    </string>
+    <string name="str_choose_theme">Choose app theme</string>
+    <string-array name="themes">
+        <item>Light Mode</item>
+        <item>Dark Mode</item>
+        <item>Follow system settings</item>
+    </string-array>
+    <string name="str_ok">OK</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_chats">In app Chats</string>
+    <string name="str_create_note">Create Note</string>
+    <string name="str_add_reminder">Add Reminder</string>
+    <string-array name="items">
+        <item>Leather</item>
+        <item>Flooring</item>
+        <item>Clear Sheet</item>
+    </string-array>
+    <string-array name="types1">
+        <item>light</item>
+        <item>medium</item>
+        <item>thick</item>
+    </string-array>
+    <string-array name="types2">
+        <item>1.8–140</item>
+        <item>2.4–140</item>
+    </string-array>
+    <string-array name="types3">
+        <item>0.14–137–50Y</item>
+        <item>0.18–137–50Y</item>
+        <item>0.28–137–50Y</item>
+    </string-array>
+    <string-array name="colors1">
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Black</item>
+    </string-array>
+    <string-array name="colors2">
+        <item>White</item>
+        <item>Grey</item>
+        <item>Black</item>
+    </string-array>
+    <string-array name="colors3">
+        <item>White</item>
+        <item>Blue</item>
+    </string-array>
+    <string name="str_app_language">App Language</string>
+</resources>

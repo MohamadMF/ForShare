@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/section_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_1_8"
+    android:layout_marginTop="@dimen/_2_16"
+    android:layout_marginEnd="@dimen/_1_8"
+    android:layout_marginBottom="@dimen/_2_16"
+    app:cardElevation="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/section_title"
+            style="@style/WhiteHeaderText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_1_8"
+            android:paddingEnd="@dimen/_3_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Section Title" />
+
+
+        <ImageButton
+            android:id="@+id/icon_section_title"
+            style="@style/BlueButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_1_8"
+            app:layout_constraintBottom_toBottomOf="@id/section_title"
+            app:layout_constraintEnd_toEndOf="@id/section_title"
+            app:layout_constraintTop_toTopOf="@id/section_title"
+            app:srcCompat="@drawable/ic_round_keyboard_arrow_down_24"
+            app:tint="?attr/colorPrimaryVariant"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/subSection_views"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/section_title"
+            android:visibility="gone"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>
+

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">شركة البنا للاستيراد والتصدير</string>
+    <string name="str_welcome">ترحب بكم</string>
+    <string name="str_chosAppLang">اختر لغة التطبيق:</string>
+    <string name="str_login_as">تسجيل الدخول كـ:</string>
+    <string name="str_employee">موظف</string>
+    <string name="str_client">عميل</string>
+    <string name="str_exit">خروج</string>
+    <string name="btnStr_about">حول</string>
+    <string name="str_about">تأسست الشركة في عام 2011، ونقوم باستيراد أغلب بضائعها من الصين وتُصدر الشركة لليبيا والسودان وفلسطين واليمن ودول أخرى كثيرة. \n إن العمل الأساسي لنا هو استيراد كافة مستلزمات تنجيد السيارات من  جلود وأرضيات وشفاف وكلة وكلة رش واصطفة وقطيفة وتويد وأغطية كراسي جاهزة. \n ولدينا آلات محلية لإنتاج الدبل المسننة المستخدمة في أغراض التنجيد. ولدينا موردين محليين لتوريد الموكيت واللباد والفوم. \n ولدينا أيضًا منتجات من خارج العمل الرئيسي لنا كـ مفارش السفرة والتِنَد بأنواعها والسوسَت</string>
+    <string name="str_loginAs_employee">تسجيل الدخول كـموظف</string>
+    <string name="str_emp_name">اسم المستخدم للموظف</string>
+    <string name="str_password">كلمة المرور</string>
+    <string name="str_client_name">اسم العميل</string>
+    <string name="str_rmmbr_chkbox">تذكر كلمة المرور</string>
+    <string name="str_login">تسجيل الدخول</string>
+    <string name="str_back">رجوع</string>
+    <string name="str_helping">هل تحتاج مساعدة؟</string>
+    <string name="str_forgetting">هل نسيت كلمة المرور؟</string>
+    <string name="btnStr_home">الرئيسية</string>
+    <string name="btnStr_financial">المالية</string>
+    <string name="btnStr_warehouse">المخزن</string>
+    <string name="btnStr_addDep">إضافة دفعة</string>
+    <string name="btnStr_crtOrder">إنشاء طلبية</string>
+    <string name="strBtn_addClient">إضافة عميل</string>
+    <string name="btnStr_addCapital">إضافة شريك مال</string>
+    <string name="btnStr_office">المكتب</string>
+    <string name="btnStr_import">الاستيراد</string>
+    <string name="btnStr_more">المزيد</string>
+    <string name="str_fragHome_wlcom">مرحبًا بك</string>
+    <string name="str_userName">اسم الموظف</string>
+    <string name="str_userTitle">الرتبة</string>
+    <string name="str_summary">الملخص</string>
+    <string name="str_warehouse_dep">إدارة المخزن</string>
+    <string name="str_title_orders">قسم الأذونات</string>
+    <string name="str_title_preOrder">قسم الطلبيات</string>
+    <string name="str_title_shipEs">قسم شركات الشحن</string>
+    <string name="str_title_inventory">قسم الجرد</string>
+    <string name="str_whPo_rcvdPrm">الطلبيات المستلمة</string>
+    <string name="str_whPo_dfrdPrm">الطلبيات المؤجلة</string>
+    <string name="str_whPo_cnfdPrm">الطلبيات المؤكدة</string>
+    <string name="str_whPo_cnsldPrm">الطلبيات الملغاة</string>
+    <string name="str_whOr_OrdList">الأذونات الصادر</string>
+    <string name="str_whOr_RtnList">الأذونات المرتجع</string>
+    <string name="str_whOr_IncList">الأذونات الوارد</string>
+    <string name="str_whOr_ctrIncomes">إنشاء إذن وارد</string>
+    <string name="str_whOr_ctrReturns">إرجاع إذن</string>
+    <string name="str_whEs_EsList">قائمة شركات الشحن</string>
+    <string name="str_whEs_addEs">إضافة شركة شحن</string>
+    <string name="str_whEs_cnsldEs">الشركات الموقوفة</string>
+    <string name="str_whIn_recent">الأصناف الموجودة</string>
+    <string name="str_whIn_Empty">الأصناف الفارغة</string>
+    <string name="str_whIn_Deleted">الأصناف المحذوفة</string>
+    <string name="str_whIn_AddItem">إضافة صنف</string>
+    <string name="str_whIn_delItem">حذف صنف</string>
+    <string name="str_office_dep">إدارة المكتب</string>
+    <string name="str_fin_section">قسم المالية</string>
+    <string name="str_cusSup_section">قسم العملاء والموردين</string>
+    <string name="str_pers_section">قسم الأفراد</string>
+    <string name="str_cap_section">قسم رأس الشركة</string>
+    <string name="str_ofFn_safeAdd">حركة الخزنة</string>
+    <string name="str_ofFn_daily">التقرير اليومي</string>
+    <string name="str_ofFn_general">تقارير عامة</string>
+    <string name="str_ofFn_chqs">قائمة الشيكات</string>
+    <string name="str_ofCp_capList">قائمة المشاركين</string>
+    <string name="str_ofCp_sumList">ملخص حركة المشاركين</string>
+    <string name="str_ofCp_detList">تفاصيل حركة المشارك</string>
+    <string name="str_ofCp_comR">تقرير حالة الشركة</string>
+    <string name="str_ofCS_csList">قائمة العملاء والموردين</string>
+    <string name="str_ofCS_stoppedList">قائمة الموقوفون</string>
+    <string name="str_ofCS_inactiveList">قائمة غير النشطاء</string>
+    <string name="str_ofCS_dBalances">الأرصدة المفصّلة</string>
+    <string name="str_ofCS_bBalances">الأرصدة المختصرة</string>
+    <string name="str_ofCS_others">الخصومات والزيادات</string>
+    <string name="str_ofPr_perList">قائمة الموظفين</string>
+    <string name="str_ofPr_mReport">تقرير الراتب الشهري</string>
+    <string name="str_ofPr_yReport">التقرير السنوي للراتب</string>
+    <string name="str_ofPr_attendance">الحضور والغياب</string>
+    <string name="str_ofPr_delay">التأخير والتبكير</string>
+    <string name="str_import_dept">إدارة الاستيراد</string>
+    <string name="str_impDB_section">قسم قاعدة بيانات الاستيراد</string>
+    <string name="str_impEn_section">قسم الإدخالات</string>
+    <string name="str_impRp_section">قسم التقارير</string>
+    <string name="str_impTr_section">القسم المتتبع</string>
+    <string name="str_impDB_catgs">فئات المنتجات</string>
+    <string name="str_impDB_sups">الموردون</string>
+    <string name="str_impEn_trans">عمليات التحويل</string>
+    <string name="str_impEn_invoices">الفواتير</string>
+    <string name="str_impRp_stats">مخلص بيان الأرصدة</string>
+    <string name="str_impRp_costs">تكلفة البضائع</string>
+    <string name="str_impRp_ex">بيانات الحوالة الخارجية بتفاصيل البنك</string>
+    <string name="str_impRp_sfsi">بيان الرصيد الداخلي والخارجي</string>
+    <string name="str_impTr_orTracker">متتبع سير الطلب</string>
+    <string name="str_impTr_tsTracker">متتبع سير المهام</string>
+    <string name="str_tools_clientName">اسم العميل</string>
+    <string name="str_hint_enterTheCode">أدخل الكود</string>
+    <string name="str_hint_enterTheAmount">أدخل المبلغ</string>
+    <string name="str_deposit_type">نوع المبلغ</string>
+    <string name="str_deposit">دفعة</string>
+    <string name="str_cheque">شيك</string>
+    <string name="str_receipt">إيصال</string>
+    <string name="str_mail">بريد</string>
+    <string name="str_about_client">حول العميل</string>
+    <string name="str_forMe">العميل لديّ</string>
+    <string name="str_forOthers">العميل لدى غيري</string>
+    <string name="str_add_other_deposit">إضافة دفعة أخرى</string>
+    <string name="str_submit_the_deposits">تقديم الدفعات</string>
+    <string name="str_cancel_the_data">إلغاء البيانات</string>
+    <string name="str_col1_num">بند</string>
+    <string name="str_col2_qty">العدد</string>
+    <string name="str_col3_item">الصنف</string>
+    <string name="str_col4_type">النوع</string>
+    <string name="str_col5_color">اللون</string>
+    <string name="str_col6_price">السعر</string>
+    <string name="str_add_other_item">إضافة بند جديد</string>
+    <string name="str_edit_profile">تعديل الملف الشخصي</string>
+    <string name="str_logout"><u>تسجيل الخروج</u></string>
+    <string name="str_work_title">خاص بالعمل</string>
+    <string name="str_call_ceo">الاتصال بصاحب الشركة</string>
+    <string name="str_chat_ceo">محادثة صاحب الشركة</string>
+    <string name="str_app_title">خاص بالتطبيق</string>
+    <string name="str_the_settings">الإعدادات</string>
+    <string name="str_themes">السمات</string>
+    <string name="str_others">أخرى</string>
+    <string name="str_report_a_problem">الإبلاغ عن مشكلة</string>
+    <string name="str_intro">شركة البنا للاستيراد والتصدير. وأية إشارة في \"نحن\" أو \"نا\" أو ببداية الفعل المضارع \"نـ\" فهي تشير إلى هذه الشركة</string>
+    <string name="str_legal">السجل التجاري: 16597 \n الرقم الضريبي: 403–839–173 \n سجل المستوردين: 88564</string>
+    <string name="str_contacts">
+        رقم صاحب الشركة: +201006866888 - +201159879777
+        \n الموقع الالكتروني: https://
+        \n صفحتنا على الفيس بوك: <xliff:g id="company_website">https://www.facebook.com/Albna.Import</xliff:g>
+    </string>
+    <string name="str_choose_theme">اختر سمة التطبيق</string>
+    <string-array name="themes">
+        <item>الوضع النهاري</item>
+        <item>الوضع الليلي</item>
+        <item>اتباع نظام الهاتف</item>
+    </string-array>
+    <string name="str_ok">اختر</string>
+    <string name="str_cancel">إلغاء</string>
+    <string-array name="items">
+        <item>جلد</item>
+        <item>أرضية</item>
+        <item>شفاف</item>
+    </string-array>
+    <string-array name="types1">
+        <item>خفيف</item>
+        <item>وسط</item>
+        <item>ثقيل</item>
+    </string-array>
+    <string-array name="types2">
+        <item>1.8–140</item>
+        <item>2.4–140</item>
+    </string-array>
+    <string-array name="types3">
+        <item>0.14–137–50Y</item>
+        <item>0.18–137–50Y</item>
+        <item>0.28–137–50Y</item>
+    </string-array>
+    <string-array name="colors1">
+        <item>أحمر</item>
+        <item>أصفر</item>
+        <item>أسود</item>
+    </string-array>
+    <string-array name="colors2">
+        <item>أبيض</item>
+        <item>رمادي</item>
+        <item>أسود</item>
+    </string-array>
+    <string-array name="colors3">
+        <item>أبيض</item>
+        <item>أزرق</item>
+    </string-array>
+    <string name="str_chats">المحادثات</string>
+    <string name="str_create_note">إنشاء مفكرة</string>
+    <string name="str_add_reminder">إضافة تذكير</string>
+    <string name="str_app_language">لغة التطبيق</string>
+    <string name="str_impEn_invInfo">معلومات الفاتورة</string>
+
+</resources>
