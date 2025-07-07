@@ -1,0 +1,19 @@
+Steps to change app name and app package path
+
+* Your New App Name will be referred by YNAN as a shortcut.
+
+1: go to `settings.gradle.kts` then rootProject.name = "YNAN" from there
+2: go to `build.gradle.kts` (Module:app) then android { 
+						namespace=".." //all are lower case
+						... 
+						defaultConfig { 
+							applicationId = ".." //same as above
+							... 
+							} 
+						...
+						}
+3: go to strings resource directory then change the name <resources>
+    								<string name="app_name">Your New App Name</string>
+								...
+							</resources>
+4: click Sync Now
