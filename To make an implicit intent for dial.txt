@@ -1,0 +1,13 @@
+To make an implicit intent for dialing a phone number in Kotlin, here's how you can do it:
+
+For ACTION_DIAL (opens the dialer with the number prefilled):
+kotlin
+val intent = Intent(Intent.ACTION_DIAL)
+intent.data = Uri.parse("tel:+201234567890") // Replace with your desired number
+startActivity(intent)
+For ACTION_CALL (directly makes the call, requires permission):
+First, declare the permission in your AndroidManifest.xml:
+
+xml
+<uses-permission android:name="android.permission.CALL_PHONE" />
+Then, use this Kotlin code with runtime permission handling:
